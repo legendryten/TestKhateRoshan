@@ -6,13 +6,17 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "barryvdh/laravel-dompdf": "^2.2",
         "fabpot/goutte": "^4.0",
         "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
+        "guzzlehttp/guzzle": "^7.9",
+        "knplabs/knp-snappy-bundle": "^1.10",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "symfony/css-selector": "^6.4",
+        "symfony/dom-crawler": "^6.4",
+        "symfony/http-client": "^5.4",
+        "tecnickcom/tcpdf": "^6.7"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
